@@ -1,4 +1,4 @@
-# Disney Land Text Classification
+# Text Classification
 
  Multi-Class and Multi-Label text classification on Disney Land feedback comments.
 
@@ -25,21 +25,7 @@ pip install -v --no-cache-dir --global-option="--cpp_ext" --global-option="--cud
 ```
 
 ## Dataset
-```
-sample_data
-├── FA2013-2019.xlsx
-├── disney
-│   ├── data
-│   │   ├── FA2013-2019.xlsx
-│   │   ├── disney_land_all_clean.csv
-│   │   ├── disney_land_test.csv
-│   │   ├── disney_land_test_clean.csv
-│   │   ├── disney_land_train.csv
-│   │   └── disney_land_train_clean.csv
-│   ├── label
-│   │   └── disney_land_labels.csv
 
-```
 
 ## Pretrained Japanese BERT models
 - BERT-base models (12-layer, 768-hidden, 12-heads, 110M parameters)
