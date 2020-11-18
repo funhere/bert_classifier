@@ -1,7 +1,7 @@
 # Disney Land Text Classification
 
-**Text Classification Training on Disney Land feedback comments **
-**Supports BERT and XLNet for both Multi-Class and Multi-Label text classification.**
+Text Classification Training on Disney Land feedback comments
+Supports BERT and XLNet for both Multi-Class and Multi-Label text classification.
 
 Functions:
 1. Train BERT, XLNet text classification models on Disney dataset.
@@ -84,8 +84,8 @@ bert_pytorch.ipynb
 
 
 ## Refernence
-- 1) HuggingFace [pytorch-transformers](https://github.com/huggingface/pytorch-transformers) 
-- 2) **[BERT](https://github.com/google-research/bert)** (from Google) released with the paper [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805) by Jacob Devlin, Ming-Wei Chang, Kenton Lee and Kristina Toutanova.
-- 3) **[XLNet](https://github.com/zihangdai/xlnet/)** (from Google/CMU) released with the paper [​XLNet: Generalized Autoregressive Pretraining for Language Understanding](https://arxiv.org/abs/1906.08237) by Zhilin Yang*, Zihang Dai*, Yiming Yang, Jaime Carbonell, Ruslan Salakhutdinov, Quoc V. Le.
-- 4) **[RoBERTa](https://arxiv.org/abs/1907.11692)** (from Facebook), a Robustly Optimized BERT Pretraining Approach by Yinhan Liu, Myle Ott, Naman Goyal, Jingfei Du et al.
-- 5) **DistilBERT (from HuggingFace)**, released together with the blogpost [Smaller, faster, cheaper, lighter: Introducing DistilBERT, a distilled version of BERT](https://medium.com/huggingface/distilbert-8cf3380435b5) by Victor Sanh, Lysandre Debut and Thomas Wolf.
+- HuggingFace [pytorch-transformers](https://github.com/huggingface/pytorch-transformers) 
+- **[BERT](https://github.com/google-research/bert)** (from Google) released with the paper [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805) by Jacob Devlin, Ming-Wei Chang, Kenton Lee and Kristina Toutanova.
+- **[XLNet](https://github.com/zihangdai/xlnet/)** (from Google/CMU) released with the paper [​XLNet: Generalized Autoregressive Pretraining for Language Understanding](https://arxiv.org/abs/1906.08237) by Zhilin Yang*, Zihang Dai*, Yiming Yang, Jaime Carbonell, Ruslan Salakhutdinov, Quoc V. Le.
+- **[RoBERTa](https://arxiv.org/abs/1907.11692)** (from Facebook), a Robustly Optimized BERT Pretraining Approach by Yinhan Liu, Myle Ott, Naman Goyal, Jingfei Du et al.
+- **DistilBERT (from HuggingFace)**, released together with the blogpost [Smaller, faster, cheaper, lighter: Introducing DistilBERT, a distilled version of BERT](https://medium.com/huggingface/distilbert-8cf3380435b5) by Victor Sanh, Lysandre Debut and Thomas Wolf.
