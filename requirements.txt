@@ -2,7 +2,6 @@ matplotlib
 pytorch-lamb
 tensorboardX
 fastprogress
-fast_bert
 sklearn
 spacy
 seqeval
