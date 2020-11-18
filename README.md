@@ -1,6 +1,6 @@
 # Text Classification
 
- Multi-Class and Multi-Label text classification on Disney Land feedback comments.
+ Multi-Class and Multi-Label text classification on feedback comments.
 
 Supports BERT and XLNet for both Multi-Class and Multi-Label text classification.
 
