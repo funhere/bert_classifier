@@ -1,6 +1,7 @@
 # Disney Land Text Classification
 
-Text Classification Training on Disney Land feedback comments
+Text Classification Training on Disney Land feedback comments.
+
 Supports BERT and XLNet for both Multi-Class and Multi-Label text classification.
 
 Functions:
