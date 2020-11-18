@@ -34,7 +34,7 @@ else:
 
 class _LRSchedule(ABC):
     """ Parent of all LRSchedules here. """
-    warn_t_total = False        # is set to True for schedules where progressing beyond t_total steps doesn't make sense
+    warn_t_total = False 
     def __init__(self, warmup=0.002, t_total=-1, **kw):
         """
         :param warmup:  what fraction of t_total steps will be used for linear warmup
@@ -293,10 +293,5 @@ class BertAdam(Optimizer):
                 p.data.add_(-update_with_lr)
 
                 state['step'] += 1
-
-                # step_size = lr_scheduled * math.sqrt(bias_correction2) / bias_correction1
-                # No bias correction
-                # bias_correction1 = 1 - beta1 ** state['step']
-                # bias_correction2 = 1 - beta2 ** state['step']
 
         return loss

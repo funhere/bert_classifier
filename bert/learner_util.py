@@ -135,7 +135,7 @@ class Learner(object):
         # Save a trained model
         model_to_save = (
             self.model.module if hasattr(self.model, "module") else self.model
-        )  # Only save the model it-self
+        )
         model_to_save.save_pretrained(path)
 
         # save the tokenizer

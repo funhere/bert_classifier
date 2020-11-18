@@ -1,7 +1,6 @@
 import numpy as np
 from torch import Tensor
 from sklearn.metrics import roc_curve, auc, hamming_loss, accuracy_score
-import pdb
 
 CLASSIFICATION_THRESHOLD: float = 0.5  # Best keep it in [0.0, 1.0] range
 

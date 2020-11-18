@@ -1,6 +1,6 @@
 # Disney Land Text Classification
 
-Text Classification Training on Disney Land feedback comments.
+ Multi-Class and Multi-Label text classification on Disney Land feedback comments.
 
 Supports BERT and XLNet for both Multi-Class and Multi-Label text classification.
 
@@ -29,15 +29,15 @@ pip install -v --no-cache-dir --global-option="--cpp_ext" --global-option="--cud
 sample_data
 ├── FA2013-2019.xlsx
 ├── disney
-│   ├── data
-│   │   ├── FA2013-2019.xlsx
-│   │   ├── disney_land_all_clean.csv
-│   │   ├── disney_land_test.csv
-│   │   ├── disney_land_test_clean.csv
-│   │   ├── disney_land_train.csv
-│   │   └── disney_land_train_clean.csv
-│   ├── label
-│   │   └── disney_land_labels.csv
+│   ├── data
+│   │   ├── FA2013-2019.xlsx
+│   │   ├── disney_land_all_clean.csv
+│   │   ├── disney_land_test.csv
+│   │   ├── disney_land_test_clean.csv
+│   │   ├── disney_land_train.csv
+│   │   └── disney_land_train_clean.csv
+│   ├── label
+│   │   └── disney_land_labels.csv
 
 ```
 

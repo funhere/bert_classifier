@@ -1,4 +1,5 @@
-#Reference:
+# coding=utf-8
+# References:
 # https://github.com/davidtvs/pytorch-lr-finder/pull/42
 # https://github.com/davidtvs/pytorch-lr-finder
 # https://nvidia.github.io/apex/advanced.html#gradient-accumulation-across-iterations
